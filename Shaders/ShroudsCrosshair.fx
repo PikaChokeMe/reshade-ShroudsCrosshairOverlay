@@ -4,7 +4,7 @@ namespace ShroudsCrosshair
 /**********************************************************
  *  Constants
  **********************************************************/
-#define CROSSHAIR_PATH   "ShroudCrosshair.png"
+#define CROSSHAIR_PATH   "ShroudsCrosshair.png"
 #define CROSSHAIR_WIDTH  32.0
 #define CROSSHAIR_HEIGHT 32.0
 
@@ -44,7 +44,7 @@ float4 ps_crosshair(float4 pos : SV_POSITION, float2 uv : TEXCOORD) : SV_Target 
 /**********************************************************
  *  Technique
  **********************************************************/
-    technique shrouds_crosshair<enabled=true;>
+    technique shrouds_crosshair
     {
         pass crosshairPass {
 			VertexCount = 4;
